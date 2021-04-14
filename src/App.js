@@ -81,7 +81,7 @@ function App() {
               )) : null}
             </div>
             <div className="col-span-1">
-              {striker.length > 0 ? striker.map((player) => (
+              {defender.length > 0 ? defender.map((player) => (
                 <Token data={player} />
               )) : null}
             </div>
@@ -91,7 +91,7 @@ function App() {
               )) : null}
             </div>
             <div className="col-span-1">
-              {defender.length > 0 ? defender.map((player) => (
+              {striker.length > 0 ? striker.map((player) => (
                 <Token data={player} />
               )) : null}
             </div>
@@ -111,7 +111,7 @@ function App() {
               {goalkeeper.length > 0 ? (<Player data={goalkeeper[0]} />) : <p className="italic font-normal">No player selected</p>}
             </div>
             <div className="col-span-3 m-2 italic font-bold">
-              - Striker -
+              - Defender -
               {defender.length > 0 ? (
                 <button onClick={() => handleRemove("st")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
                   Remove
@@ -133,7 +133,7 @@ function App() {
               </div>
             </div>
             <div className="col-span-3 m-2 italic font-bold">
-              - Defender -
+              - Striker -
               {striker.length > 0 ? (
                 <button onClick={() => handleRemove("df")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
                   Remove
