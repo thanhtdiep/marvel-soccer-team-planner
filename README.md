@@ -26,3 +26,6 @@ Once view it in the browser, you can start:
 5. Keep track of your team lineup through the visual feedbacks, you also have an option to remove added characters of a role by clicking "Remove".
 6. Once you've added 6 characters for your team, you can share it with friends on social media via the buttons at the bottom of the page.
 
+### NOTE
+
+.env file was intended to be pushed for review purposes
