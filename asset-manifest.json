@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Marvel-Soccer-Team-Planner/static/css/main.705307e8.chunk.css",
-    "main.js": "/Marvel-Soccer-Team-Planner/static/js/main.86045e36.chunk.js",
-    "main.js.map": "/Marvel-Soccer-Team-Planner/static/js/main.86045e36.chunk.js.map",
+    "main.js": "/Marvel-Soccer-Team-Planner/static/js/main.a7a5f0a4.chunk.js",
+    "main.js.map": "/Marvel-Soccer-Team-Planner/static/js/main.a7a5f0a4.chunk.js.map",
     "runtime-main.js": "/Marvel-Soccer-Team-Planner/static/js/runtime-main.0976769b.js",
     "runtime-main.js.map": "/Marvel-Soccer-Team-Planner/static/js/runtime-main.0976769b.js.map",
     "static/js/2.280b1ae4.chunk.js": "/Marvel-Soccer-Team-Planner/static/js/2.280b1ae4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0976769b.js",
     "static/js/2.280b1ae4.chunk.js",
     "static/css/main.705307e8.chunk.css",
-    "static/js/main.86045e36.chunk.js"
+    "static/js/main.a7a5f0a4.chunk.js"
   ]
 }
