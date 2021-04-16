@@ -3,7 +3,7 @@
 This project was bootstrapped with Create-React-App. It's a simple single page web app allow user to view Marvel characters and select them for a 6-aside soccer team. User has options to share their team lineup to social media. 
 
 ## Run Instruction
-To preview the web app, please visit: https://github.com/thanhtdiep/Marvel-Soccer-Team-Planner
+To preview the web app, please visit: https://thanhtdiep.github.io/Marvel-Soccer-Team-Planner/
 In the project directory, you should run:
 
 ### `npm install`
