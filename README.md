@@ -28,5 +28,5 @@ Once view it in the browser, you can start:
 6. Once you've added 6 characters for your team, you can share it with friends on social media via the buttons at the bottom of the page.
 
 ### NOTE
-Please make sure your Node.JS version is 12+
-.env file was intended to be pushed for review purposes
+Please make sure your Node.JS version is 12+.
+.env file was intended to be pushed for review purposes.
