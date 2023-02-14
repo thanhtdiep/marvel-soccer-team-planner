@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/marvel-soccer-team-planner/static/css/main.705307e8.chunk.css",
-    "main.js": "/marvel-soccer-team-planner/static/js/main.139aedb0.chunk.js",
-    "main.js.map": "/marvel-soccer-team-planner/static/js/main.139aedb0.chunk.js.map",
-    "runtime-main.js": "/marvel-soccer-team-planner/static/js/runtime-main.0f9868ac.js",
-    "runtime-main.js.map": "/marvel-soccer-team-planner/static/js/runtime-main.0f9868ac.js.map",
-    "static/js/2.eb62523e.chunk.js": "/marvel-soccer-team-planner/static/js/2.eb62523e.chunk.js",
-    "static/js/2.eb62523e.chunk.js.map": "/marvel-soccer-team-planner/static/js/2.eb62523e.chunk.js.map",
-    "static/js/3.25d75927.chunk.js": "/marvel-soccer-team-planner/static/js/3.25d75927.chunk.js",
-    "static/js/3.25d75927.chunk.js.map": "/marvel-soccer-team-planner/static/js/3.25d75927.chunk.js.map",
+    "main.css": "/marvel-soccer-team-planner/static/css/main.744f073e.chunk.css",
+    "main.js": "/marvel-soccer-team-planner/static/js/main.2bf2c7e3.chunk.js",
+    "main.js.map": "/marvel-soccer-team-planner/static/js/main.2bf2c7e3.chunk.js.map",
+    "runtime-main.js": "/marvel-soccer-team-planner/static/js/runtime-main.b4d7696c.js",
+    "runtime-main.js.map": "/marvel-soccer-team-planner/static/js/runtime-main.b4d7696c.js.map",
+    "static/js/2.0ac65e6e.chunk.js": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js",
+    "static/js/2.0ac65e6e.chunk.js.map": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js.map",
+    "static/js/3.ef1b0437.chunk.js": "/marvel-soccer-team-planner/static/js/3.ef1b0437.chunk.js",
+    "static/js/3.ef1b0437.chunk.js.map": "/marvel-soccer-team-planner/static/js/3.ef1b0437.chunk.js.map",
     "index.html": "/marvel-soccer-team-planner/index.html",
-    "static/css/main.705307e8.chunk.css.map": "/marvel-soccer-team-planner/static/css/main.705307e8.chunk.css.map",
-    "static/js/2.eb62523e.chunk.js.LICENSE.txt": "/marvel-soccer-team-planner/static/js/2.eb62523e.chunk.js.LICENSE.txt"
+    "static/css/main.744f073e.chunk.css.map": "/marvel-soccer-team-planner/static/css/main.744f073e.chunk.css.map",
+    "static/js/2.0ac65e6e.chunk.js.LICENSE.txt": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f9868ac.js",
-    "static/js/2.eb62523e.chunk.js",
-    "static/css/main.705307e8.chunk.css",
-    "static/js/main.139aedb0.chunk.js"
+    "static/js/runtime-main.b4d7696c.js",
+    "static/js/2.0ac65e6e.chunk.js",
+    "static/css/main.744f073e.chunk.css",
+    "static/js/main.2bf2c7e3.chunk.js"
   ]
 }
