@@ -31,15 +31,16 @@ function App() {
   }
   function handleAddRole() {
     if (role === "Goalkeeper") setGoalkeeper([...goalkeeper, selected]);
-    else if (role === "Striker") setStriker([...striker, selected]);
-    else if (role === "Midfielder") setMidFielder([...midfielder, selected]);
-    else if (role === "Defender") setDefender([...defender, selected]);
+    if (role === "Striker") setStriker([...striker, selected]);
+    if (role === "Midfielder") setMidFielder([...midfielder, selected]);
+    if (role === "Defender") setDefender([...defender, selected]);
+    setSelected(null)
   }
   function handleRemove(p) {
     if (p === "gk") setGoalkeeper([]);
-    else if (p === "st") setStriker([]);
-    else if (p === "md") setMidFielder([]);
-    else if (p === "df") setDefender([]);
+    if (p === "st") setStriker([]);
+    if (p === "md") setMidFielder([]);
+    if (p === "df") setDefender([]);
   }
   function handleLoading(b) {
     setLoading(b);
@@ -51,11 +52,14 @@ function App() {
         {/* Title Logo */}
         <img className="m-auto h-20 p-2" src="./marvel-logo.png" />
       </div>
-      <div className="h-screen flex-wrap grid grid-cols-3 grid-rows-8 gap-2 p-1 text-center">
+      <div className="h-screen flex-wrap grid grid-cols-3 grid-rows-8 gap-2 p-4 text-center">
         {/* Searchbar and Result Table */}
         <div className="flex-wrap col-span-3 lg:col-span-1 row-span-4">
-          <SearchBar result={handleCharacter} onClick={(b) =>handleLoading(b)}/>
-          <Table data={character} loading={loading} onSelected={handleSelected} />
+          <h1 className='mb-4 text-left uppercase tracking-wider font-bold'>Search for your favorite Marvel superhero</h1>
+          <div className='flex flex-col'>
+            <SearchBar result={handleCharacter} onClick={(b) => handleLoading(b)} />
+            <Table data={character} loading={loading} onSelected={handleSelected} />
+          </div>
         </div>
 
         <div className="flex space-x-4 col-span-3 lg:col-span-2 p-4">
@@ -70,6 +74,7 @@ function App() {
         </div>
 
         <div className="relative col-span-3 lg:col-span-2 row-span-2 p-0">
+          <h1 className='mb-4 text-center uppercase tracking-wider font-bold'>Football field</h1>
           {/* Football Field */}
           <img className="border-solid border-2 border-gray-800" src='./soccer-field.png' />
 
@@ -98,9 +103,11 @@ function App() {
           </div>
         </div>
 
-        <div className="flex space-x-4 lg:col-span-2 p-4">
+
+        <div className="flex space-x-4 lg:flex-col p-4 justify-center items-center">
+          <h1 className='mb-2 text-center uppercase tracking-wider font-bold'>Current lineup</h1>
           {/* Current Team Lineup */}
-          <div className="flex grid grid-cols-2 grid-rows-4 gap-2 p-1">
+          <div className="grid grid-cols-2 grid-rows-4 gap-2 p-1">
             <div className="col-span-3 m-2 italic font-bold">
               - Goalkeeper -
               {goalkeeper.length > 0 ? (
@@ -113,13 +120,13 @@ function App() {
             <div className="col-span-3 m-2 italic font-bold">
               - Defender -
               {defender.length > 0 ? (
-                <button onClick={() => handleRemove("st")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
+                <button onClick={() => handleRemove("df")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
                   Remove
                 </button>)
                 : null}
-              <div className="flex flex-wrap">
+              {/* <div className="flex flex-wrap"> */}
                 {defender.length > 0 ? defender.map((char) => (<Player data={char} />)) : <p className="italic font-normal">No player selected</p>}
-              </div>
+              {/* </div> */}
             </div>
             <div className="col-span-3 m-2 italic font-bold">
               - Midfielder -
@@ -135,7 +142,7 @@ function App() {
             <div className="col-span-3 m-2 italic font-bold">
               - Striker -
               {striker.length > 0 ? (
-                <button onClick={() => handleRemove("df")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
+                <button onClick={() => handleRemove("st")} className="inline-block px-2 py-1 text-xs font-medium leading-6 text-center text-red-500 uppercase focus:outline-none">
                   Remove
                 </button>)
                 : null}

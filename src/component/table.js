@@ -46,11 +46,11 @@ export default function Table(props) {
         );
     } else if (props.loading) {
         return (
-            <>
-            <Loading />
-            <Loading />
-            <Loading />
-            </>
+            <div className="flex flex-1 flex-col w-full">
+                <Loading />
+                <Loading />
+                <Loading />
+            </div>
         )
     } else {
         return (

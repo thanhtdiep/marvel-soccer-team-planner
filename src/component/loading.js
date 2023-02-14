@@ -3,7 +3,7 @@ import React from 'react';
 export default function loading(props) {
     return (
         // Loading animation
-        <div className="border mt-2 border-gray-400 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+        <div className="border mt-2 border-gray-400 shadow rounded-md p-4 max-w-lg w-full">
                 <div className="animate-pulse flex space-x-4">
                     <div className="rounded-full bg-gray-400 h-12 w-12"></div>
                     <div className="flex-1 space-y-4 py-1">
