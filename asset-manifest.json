@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/marvel-soccer-team-planner/static/css/main.744f073e.chunk.css",
-    "main.js": "/marvel-soccer-team-planner/static/js/main.2bf2c7e3.chunk.js",
-    "main.js.map": "/marvel-soccer-team-planner/static/js/main.2bf2c7e3.chunk.js.map",
+    "main.css": "/marvel-soccer-team-planner/static/css/main.f6e224ce.chunk.css",
+    "main.js": "/marvel-soccer-team-planner/static/js/main.0b98353f.chunk.js",
+    "main.js.map": "/marvel-soccer-team-planner/static/js/main.0b98353f.chunk.js.map",
     "runtime-main.js": "/marvel-soccer-team-planner/static/js/runtime-main.b4d7696c.js",
     "runtime-main.js.map": "/marvel-soccer-team-planner/static/js/runtime-main.b4d7696c.js.map",
-    "static/js/2.0ac65e6e.chunk.js": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js",
-    "static/js/2.0ac65e6e.chunk.js.map": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js.map",
+    "static/js/2.0b255e7f.chunk.js": "/marvel-soccer-team-planner/static/js/2.0b255e7f.chunk.js",
+    "static/js/2.0b255e7f.chunk.js.map": "/marvel-soccer-team-planner/static/js/2.0b255e7f.chunk.js.map",
     "static/js/3.ef1b0437.chunk.js": "/marvel-soccer-team-planner/static/js/3.ef1b0437.chunk.js",
     "static/js/3.ef1b0437.chunk.js.map": "/marvel-soccer-team-planner/static/js/3.ef1b0437.chunk.js.map",
     "index.html": "/marvel-soccer-team-planner/index.html",
-    "static/css/main.744f073e.chunk.css.map": "/marvel-soccer-team-planner/static/css/main.744f073e.chunk.css.map",
-    "static/js/2.0ac65e6e.chunk.js.LICENSE.txt": "/marvel-soccer-team-planner/static/js/2.0ac65e6e.chunk.js.LICENSE.txt"
+    "static/css/main.f6e224ce.chunk.css.map": "/marvel-soccer-team-planner/static/css/main.f6e224ce.chunk.css.map",
+    "static/js/2.0b255e7f.chunk.js.LICENSE.txt": "/marvel-soccer-team-planner/static/js/2.0b255e7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b4d7696c.js",
-    "static/js/2.0ac65e6e.chunk.js",
-    "static/css/main.744f073e.chunk.css",
-    "static/js/main.2bf2c7e3.chunk.js"
+    "static/js/2.0b255e7f.chunk.js",
+    "static/css/main.f6e224ce.chunk.css",
+    "static/js/main.0b98353f.chunk.js"
   ]
 }
